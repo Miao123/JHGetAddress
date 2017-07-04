@@ -15,6 +15,13 @@
 		DD5D574D1F0A32A800B67A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5D574B1F0A32A800B67A3C /* LaunchScreen.storyboard */; };
 		DD5D57581F0A32A800B67A3C /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D57571F0A32A800B67A3C /* _____Tests.m */; };
 		DD5D57631F0A32A800B67A3C /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D57621F0A32A800B67A3C /* _____UITests.m */; };
+		DD5D57741F0A3A6A00B67A3C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5D57721F0A3A6A00B67A3C /* AddressBook.framework */; };
+		DD5D57751F0A3A6A00B67A3C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5D57731F0A3A6A00B67A3C /* AddressBookUI.framework */; };
+		DD5D57771F0A3A8700B67A3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5D57761F0A3A8700B67A3C /* CoreGraphics.framework */; };
+		DD5D57791F0A3A8E00B67A3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5D57781F0A3A8E00B67A3C /* UIKit.framework */; };
+		DD5D577B1F0A3A9400B67A3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5D577A1F0A3A9400B67A3C /* Foundation.framework */; };
+		DD5D577E1F0A3B3300B67A3C /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D577D1F0A3B3300B67A3C /* AddressModel.m */; };
+		DD5D57811F0A4DB800B67A3C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5D57801F0A4DB800B67A3C /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		DD5D575E1F0A32A800B67A3C /* 获取通讯录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取通讯录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5D57621F0A32A800B67A3C /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		DD5D57641F0A32A800B67A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5D57701F0A373800B67A3C /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DD5D57721F0A3A6A00B67A3C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DD5D57731F0A3A6A00B67A3C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		DD5D57761F0A3A8700B67A3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD5D57781F0A3A8E00B67A3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD5D577A1F0A3A9400B67A3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD5D577C1F0A3B3300B67A3C /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		DD5D577D1F0A3B3300B67A3C /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		DD5D577F1F0A4DB800B67A3C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DD5D57801F0A4DB800B67A3C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5D577B1F0A3A9400B67A3C /* Foundation.framework in Frameworks */,
+				DD5D57791F0A3A8E00B67A3C /* UIKit.framework in Frameworks */,
+				DD5D57771F0A3A8700B67A3C /* CoreGraphics.framework in Frameworks */,
+				DD5D57741F0A3A6A00B67A3C /* AddressBook.framework in Frameworks */,
+				DD5D57751F0A3A6A00B67A3C /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,7 @@
 				DD5D57561F0A32A800B67A3C /* 获取通讯录Tests */,
 				DD5D57611F0A32A800B67A3C /* 获取通讯录UITests */,
 				DD5D573B1F0A32A800B67A3C /* Products */,
+				DD5D57711F0A3A6A00B67A3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,11 @@
 				DD5D57411F0A32A800B67A3C /* AppDelegate.m */,
 				DD5D57431F0A32A800B67A3C /* ViewController.h */,
 				DD5D57441F0A32A800B67A3C /* ViewController.m */,
+				DD5D577F1F0A4DB800B67A3C /* FirstViewController.h */,
+				DD5D57801F0A4DB800B67A3C /* FirstViewController.m */,
+				DD5D577C1F0A3B3300B67A3C /* AddressModel.h */,
+				DD5D577D1F0A3B3300B67A3C /* AddressModel.m */,
+				DD5D57701F0A373800B67A3C /* Header.h */,
 				DD5D57461F0A32A800B67A3C /* Main.storyboard */,
 				DD5D57491F0A32A800B67A3C /* Assets.xcassets */,
 				DD5D574B1F0A32A800B67A3C /* LaunchScreen.storyboard */,
@@ -138,6 +166,18 @@
 				DD5D57641F0A32A800B67A3C /* Info.plist */,
 			);
 			path = "获取通讯录UITests";
+			sourceTree = "<group>";
+		};
+		DD5D57711F0A3A6A00B67A3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5D577A1F0A3A9400B67A3C /* Foundation.framework */,
+				DD5D57781F0A3A8E00B67A3C /* UIKit.framework */,
+				DD5D57761F0A3A8700B67A3C /* CoreGraphics.framework */,
+				DD5D57721F0A3A6A00B67A3C /* AddressBook.framework */,
+				DD5D57731F0A3A6A00B67A3C /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +247,7 @@
 				TargetAttributes = {
 					DD5D57391F0A32A800B67A3C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DD5D57521F0A32A800B67A3C = {
@@ -273,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5D577E1F0A3B3300B67A3C /* AddressModel.m in Sources */,
 				DD5D57451F0A32A800B67A3C /* ViewController.m in Sources */,
+				DD5D57811F0A4DB800B67A3C /* FirstViewController.m in Sources */,
 				DD5D57421F0A32A800B67A3C /* AppDelegate.m in Sources */,
 				DD5D573F1F0A32A800B67A3C /* main.m in Sources */,
 			);
@@ -424,9 +467,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "获取通讯录/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = ganZhi.address;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +480,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "获取通讯录/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = ganZhi.address;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +554,7 @@
 				DD5D57691F0A32A800B67A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5D576A1F0A32A800B67A3C /* Build configuration list for PBXNativeTarget "获取通讯录Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +563,7 @@
 				DD5D576C1F0A32A800B67A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5D576D1F0A32A800B67A3C /* Build configuration list for PBXNativeTarget "获取通讯录UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +572,7 @@
 				DD5D576F1F0A32A800B67A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
